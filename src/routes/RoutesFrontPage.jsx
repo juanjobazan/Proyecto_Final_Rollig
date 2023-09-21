@@ -10,6 +10,7 @@ import CartPage from '../pages/CartPage'
 import AdminPage from '../pages/AdminPage'
 import ErrorPage from '../pages/ErrorPage'
 import NavbarH from '../components/NavbarH'
+import Footer from '../components/Footer'
 const RoutesFrontPage = () => {
   return (
     <>
@@ -26,6 +27,7 @@ const RoutesFrontPage = () => {
       <Route path='/admin' element={<AdminPage />} />
       <Route path='/*' element={<ErrorPage />} />
     </Routes>
+    <Footer/>
     </>
   )
 }
