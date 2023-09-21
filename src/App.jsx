@@ -1,10 +1,14 @@
 import React from 'react'
+import {BrowserRouter as Router } from 'react-router-dom'
+import RoutesFrontPage from './routes/RoutesFrontPage'
 
 const App = () => {
   return (
-    <div>
-      
-    </div>
+<>
+<Router>
+  <RoutesFrontPage />
+</Router>
+</>
   )
 }
 
