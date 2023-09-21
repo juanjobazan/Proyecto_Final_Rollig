@@ -1,11 +1,11 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
-import '../css/footer.css'
+import '../css/Footer.css'
 
 const Footer = () => {
   return (
   <>
-    <footer>
+   
     <footer className="footer">
         <div className="container">
             <div className="row text-center">
@@ -30,7 +30,7 @@ const Footer = () => {
             </div >
         </div >
     </footer >
-</footer >
+
   </>
   )
 }
