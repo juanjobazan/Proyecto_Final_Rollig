@@ -41,6 +41,7 @@ const LoginPage = () => {
                 <Button className='w-100 my-3' type='submit' onClick={handleSubmit}>Iniciar Sesion</Button>
                 <hr />
                 <NavLink to='/' className='nav-link' >Recuperar Contraseña</NavLink>
+                <NavLink to='/register' className='nav-link text-primary' >Registrate</NavLink>
                 <hr />
                 <small>Iniciar Sesion con</small>
                 <br />
