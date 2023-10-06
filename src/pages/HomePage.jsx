@@ -1,13 +1,21 @@
 import React from 'react'
 import CarouselHome from '../components/Carousel'
-import Cards from '../components/Cards'
+import CardServ from '../components/CardServ'
+import CardComp from '../components/CardComp'
 
 const HomePage = () => {
   return (
     <>
     <CarouselHome/>
    
-      <Cards/>
+      <CardComp/>
+      <hr />
+    <div className="container">
+      <div className="row">
+      <div className='d-flex'><h3>Servicios</h3></div>
+      </div>
+    </div>
+      <CardServ/>
      
     </>
   )
