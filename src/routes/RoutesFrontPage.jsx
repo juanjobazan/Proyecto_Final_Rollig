@@ -11,6 +11,7 @@ import AdminPage from '../pages/AdminPage'
 import ErrorPage from '../pages/ErrorPage'
 import NavbarH from '../components/NavbarH'
 import Footer from '../components/Footer'
+import ServicioPage from '../pages/ServicioPage'
 const RoutesFrontPage = () => {
   return (
     <>
@@ -23,6 +24,7 @@ const RoutesFrontPage = () => {
       <Route path='/login' element={<LoginPage />} />
       <Route path='/user' element={<UserPage />} />
       <Route path='/product' element={<ProductPage />} />
+      <Route path='/service' element={<ServicioPage/>}/>
       <Route path='/cart' element={<CartPage />} />
       <Route path='/admin' element={<AdminPage />} />
       <Route path='/*' element={<ErrorPage />} />
