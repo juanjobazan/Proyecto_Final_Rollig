@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';
 
 const CardComp = () => {
   return (
@@ -12,7 +12,7 @@ const CardComp = () => {
         <Card.Text>
           1 cama de 1,40 x 2,00 metros
         </Card.Text>
-        <Button variant="danger">Reservar</Button>
+        <Link to='/product' className='btn btn-outline-danger'>Reservar</Link>
       </Card.Body>
     </Card>
     </div>
